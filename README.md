@@ -18,7 +18,7 @@ yarn add @bayudev/react-native-modal-dialog-animated
 ## Usage
 
 ```js
-import { ReactNativeAlert } from "@bayudev/react-native-modal-dialog-animated";
+import { ReactNativeAlertAnimated } from "@bayudev/react-native-modal-dialog-animated";
 
 <ReactNativeAlert />;
 ```
@@ -122,7 +122,7 @@ import { StatusBar } from "expo-status-bar";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useState } from "react";
 
-import { ReactNativeAlert } from "@bayudev/react-native-modal-dialog-animated";
+import { ReactNativeAlertAnimated } from "@bayudev/react-native-modal-dialog-animated";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -133,7 +133,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <ReactNativeAlert
+      <ReactNativeAlertAnimated
         visible={visible}
         onVisible={setVisible}
         message={
@@ -189,7 +189,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 import { useState } from "react";
 
 // Import here
-import { ReactNativeDialog } from "@bayudev/react-native-modal-dialog-animated";
+import { ReactNativeDialogAnimated } from "@bayudev/react-native-modal-dialog-animated";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -200,7 +200,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <ReactNativeDialog
+      <ReactNativeDialogAnimated
         visible={visible}
         onVisible={setVisible}
         message={
@@ -256,7 +256,7 @@ import { Pressable, StyleSheet, Text, TextInput, View } from "react-native";
 import { useState } from "react";
 
 // Import here
-import { ReactNativeDialogInput } from "@bayudev/react-native-modal-dialog-animated";
+import { ReactNativeDialogInputAnimated } from "@bayudev/react-native-modal-dialog-animated";
 
 export default function App() {
   const [visible, setVisible] = useState(false);
@@ -298,7 +298,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <ReactNativeDialogInput
+      <ReactNativeDialogInputAnimated
         children={<CustomInput />}
         isTitle
         title="React Native Dialog !"
