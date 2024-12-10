@@ -1,6 +1,6 @@
 {
   "name": "@bayudev/react-native-modal-dialog-animated",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -42,9 +42,5 @@
     "react-native": ">=0.70.0",
     "react-native-gesture-handler": ">=2.x.x",
     "react-native-reanimated": ">=3.x.x"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "private": "false"
+  }
 }
