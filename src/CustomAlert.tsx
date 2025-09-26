@@ -54,7 +54,7 @@ export const CustomAlert: FC<CustomAlertProps> = ({
                 justifyContent: "center",
               }}
             >
-              <Animated.View style={{ width: "90%" }}>
+              <Animated.View>
                 {isTitle && (
                   <Animated.Text
                     style={{
@@ -91,6 +91,7 @@ export const CustomAlert: FC<CustomAlertProps> = ({
                   padding: 10,
                   backgroundColor: buttonColor,
                   borderRadius: 10,
+                  width: 0.9 * width,
                 }}
               >
                 <Animated.Text
