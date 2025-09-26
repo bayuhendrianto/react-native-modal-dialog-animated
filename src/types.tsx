@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { StyleProp, ViewStyle } from "react-native";
 
 export type CustomAlertProps = {
   isTitle?: boolean;
@@ -8,7 +9,13 @@ export type CustomAlertProps = {
   title?: string;
   titleColor?: string;
   titlePosition?: "center" | "auto" | "left" | "right" | "justify";
-  messageTextAlign?: 'auto' | 'left' | 'right' | 'center' | 'justify' | undefined;
+  messageTextAlign?:
+    | "auto"
+    | "left"
+    | "right"
+    | "center"
+    | "justify"
+    | undefined;
   message: string | ReactNode;
   messageColor?: string;
   actionText?: string;
@@ -16,6 +23,10 @@ export type CustomAlertProps = {
   backgroundColor?: string;
   buttonColor?: string;
   buttonTextColor?: string;
+  btnWidth?: number;
+  btnHeight?: number;
+  btnPadding?: number;
+  btnBorderRadius?: number;
 };
 
 export type CustomDialogProps = {

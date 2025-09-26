@@ -28,6 +28,10 @@ export const CustomAlert: FC<CustomAlertProps> = ({
   buttonColor = "#279EFF",
   buttonTextColor = "white",
   messageTextAlign = "auto",
+  btnHeight = 20,
+  btnWidth = 0.9 * width,
+  btnPadding = 10,
+  btnBorderRadius = 10,
 }) => {
   return (
     <>
@@ -83,16 +87,16 @@ export const CustomAlert: FC<CustomAlertProps> = ({
                 </Animated.Text>
               </Animated.View>
             </Animated.View>
-            <Animated.View style={{ marginTop: 10, width: "90%" }}>
+            <Animated.View style={{ marginTop: 10, width: "100%" }}>
               <TouchableOpacity
                 activeOpacity={0.8}
                 onPress={() => onConfirm()}
                 style={{
-                  minHeight: 20,
-                  padding: 10,
+                  height: btnHeight,
+                  padding: btnPadding,
                   backgroundColor: buttonColor,
-                  borderRadius: 10,
-                  width: 0.9 * width,
+                  borderRadius: btnBorderRadius,
+                  width: btnWidth,
                 }}
               >
                 <Animated.Text
