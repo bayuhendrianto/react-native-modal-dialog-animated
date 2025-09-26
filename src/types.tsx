@@ -8,6 +8,7 @@ export type CustomAlertProps = {
   title?: string;
   titleColor?: string;
   titlePosition?: "center" | "auto" | "left" | "right" | "justify";
+  messageTextAlign?: 'auto' | 'left' | 'right' | 'center' | 'justify' | undefined;
   message: string | ReactNode;
   messageColor?: string;
   actionText?: string;

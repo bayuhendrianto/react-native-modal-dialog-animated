@@ -27,6 +27,7 @@ export const CustomAlert: FC<CustomAlertProps> = ({
   backgroundColor = "#FFFFFF",
   buttonColor = "#279EFF",
   buttonTextColor = "white",
+  messageTextAlign = "auto",
 }) => {
   return (
     <>
@@ -75,7 +76,7 @@ export const CustomAlert: FC<CustomAlertProps> = ({
                     fontWeight: "bold",
                     fontSize: 22,
                     color: messageColor ? messageColor : "#000000",
-                    textAlign: "center",
+                    textAlign: messageTextAlign,
                   }}
                 >
                   {message}
