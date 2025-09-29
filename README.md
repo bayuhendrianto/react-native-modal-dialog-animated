@@ -11,11 +11,11 @@
 
 | Expo SDK           | React Native        | Version             |
 | ------------------ | ------------------- | ------------------- |
-| <= 52              | <= 0.76.x           | <= 1.0.0            |
+| <= 52              | <= 0.76.x           | <= 0.0.9            |
 | >= 53              | <= 0.79.x           | >= 2.0.0            |
 
 
-## EXPO SDK <= 52 and React Native <= 0.76.x, install with version 1.0.8
+## EXPO SDK <= 52 and React Native <= 0.76.x, install with version 0.0.9
 ```sh
 npm install @bayudev/react-native-modal-dialog-animated@0.0.9
 ```
