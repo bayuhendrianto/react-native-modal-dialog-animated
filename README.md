@@ -6,6 +6,31 @@
 
 <hr>
 
+
+## Version
+
+| Expo SDK           | React Native        | Version             |
+| ------------------ | ------------------- | ------------------- |
+| <= 52              | <= 0.76.x           | <= 1.0.0            |
+| >= 53              | <= 0.79.x           | >= 2.0.0            |
+
+
+## EXPO SDK <= 52 and React Native <= 0.76.x, install with version 1.0.8
+```sh
+npm install @bayudev/react-native-modal-dialog-animated@0.0.9
+```
+```sh
+yarn add @bayudev/react-native-modal-dialog-animated@0.0.9
+```
+
+## EXPO SDK >= 53 and React Native <= 0.79.x, install with version 2.0.0
+```sh
+npm install @bayudev/react-native-modal-dialog-animated@2.0.0
+```
+```sh
+yarn add @bayudev/react-native-modal-dialog-animated@2.0.0
+```
+
 ## Installation
 
 ```bash
